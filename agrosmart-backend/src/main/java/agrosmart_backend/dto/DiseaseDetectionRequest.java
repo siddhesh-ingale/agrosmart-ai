@@ -1,0 +1,9 @@
+package agrosmart_backend.dto;
+
+import lombok.Data;
+
+@Data
+public class DiseaseDetectionRequest {
+
+    private String cropName;
+}
